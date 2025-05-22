@@ -1,0 +1,7 @@
+com/inn/proxmox_vnc_api/configuration/RestTemplateConfig$1.class
+com/inn/proxmox_vnc_api/controller/WebController.class
+com/inn/proxmox_vnc_api/controller/ProxmoxVncController.class
+com/inn/proxmox_vnc_api/configuration/RestTemplateConfig.class
+com/inn/proxmox_vnc_api/entity/ProxmoxResources.class
+com/inn/proxmox_vnc_api/service/ProxmoxVncService.class
+com/inn/proxmox_vnc_api/ProxmoxVncApiApplication.class

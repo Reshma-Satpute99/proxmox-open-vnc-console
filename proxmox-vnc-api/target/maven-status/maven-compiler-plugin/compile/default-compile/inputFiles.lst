@@ -1,0 +1,7 @@
+/home/innuser003/Desktop/proxmox-api/proxmox-vnc-api/src/main/java/com/inn/proxmox_vnc_api/ProxmoxVncApiApplication.java
+/home/innuser003/Desktop/proxmox-api/proxmox-vnc-api/src/main/java/com/inn/proxmox_vnc_api/configuration/RestTemplateConfig.java
+/home/innuser003/Desktop/proxmox-api/proxmox-vnc-api/src/main/java/com/inn/proxmox_vnc_api/configuration/TomcatConfig.java
+/home/innuser003/Desktop/proxmox-api/proxmox-vnc-api/src/main/java/com/inn/proxmox_vnc_api/controller/ProxmoxVncController.java
+/home/innuser003/Desktop/proxmox-api/proxmox-vnc-api/src/main/java/com/inn/proxmox_vnc_api/controller/WebController.java
+/home/innuser003/Desktop/proxmox-api/proxmox-vnc-api/src/main/java/com/inn/proxmox_vnc_api/entity/ProxmoxResources.java
+/home/innuser003/Desktop/proxmox-api/proxmox-vnc-api/src/main/java/com/inn/proxmox_vnc_api/service/ProxmoxVncService.java
