@@ -13,7 +13,7 @@
 	<artifactId>proxmox-vnc-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>proxmox-vnc-api</name>
-	<description>Demo project for proxmox-vnc console api</description>
+	<description>Demo project for proxmox-vnc console api for Proxmox LXC Container</description>
 	<url />
 	<licenses>
 		<license />
@@ -31,7 +31,6 @@
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
-		<!-- Remove Tomcat dependency by excluding it from spring-boot-starter-web -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -43,7 +42,6 @@
 			</exclusions>
 		</dependency>
 
-		<!-- Optional: Use Undertow as the embedded server (if no web server is needed, skip this) -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-undertow</artifactId>

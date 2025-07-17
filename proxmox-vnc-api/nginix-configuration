@@ -18,12 +18,11 @@ sudo apt update
 
 sudo nano /etc/nginx/sites-available/proxmox-vnc 
 
-Add this configuration for Nginix ...
 ----------------------------------------------------------------------------------
 # HTTPS Server Block
 server {
     listen 443 ssl;
-    server_name 192.168.1.4;   //Enter your local ip
+    server_name 192.168.1.4;   //Localhost
 
     # SSL Certificates
     ssl_certificate /etc/nginx/ssl/selfsigned.crt;
@@ -96,7 +95,7 @@ server {
     }
 }
 
-# Optional: Redirect HTTP ➡️ HTTPS
+# Optional: Redirect HTTP  HTTPS
 server {
     listen 80;
     server_name 192.168.1.4;
@@ -152,7 +151,7 @@ http {
     gzip on;
 
     ##
-    # Proxy Headers (✅ Set only once in http block)
+    # Proxy Headers
     ##
 
     proxy_headers_hash_max_size 512;
